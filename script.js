@@ -6,11 +6,11 @@ class Person {
 	}
 
 	getName(){
-		return this.name;
+		return this._name;
 	}
 
 	setName(name){
-		this._name = name;
+		this.name = name;
 	}
 
 	getAge(){
